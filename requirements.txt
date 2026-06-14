@@ -1,0 +1,12 @@
+beautifulsoup4
+flask
+joblib
+lxml
+numpy
+pandas
+pytest
+python-whois
+requests
+scikit-learn==1.8.0
+waitress
+gunicorn
