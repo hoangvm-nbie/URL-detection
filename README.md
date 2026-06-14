@@ -6,8 +6,6 @@ AI Cyber Shield is a machine learning-based phishing URL detection platform that
 
 🌐 Live Demo: https://nhap-mon-ai-production.up.railway.app/#scanner
 
-📂 GitHub Repository: https://github.com/Hoangvm206/URL-detection
-
 ---
 
 ## Overview
