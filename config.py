@@ -22,10 +22,10 @@ class Config:
 
     HISTORY_FILE = Path(os.getenv("HISTORY_FILE", DATA_DIR / "scan_history.csv"))
     FEEDBACK_FILE = Path(os.getenv("FEEDBACK_FILE", DATA_DIR / "feedback.csv"))
-    RF_MODEL_FILE = Path(os.getenv("RF_MODEL_FILE", MODEL_DIR / "best_model.pkl"))
+    RF_MODEL_FILE = Path(os.getenv("RF_MODEL_FILE", MODEL_DIR / "random_forest_model.pkl"))
     NB_MODEL_FILE = Path(os.getenv("NB_MODEL_FILE", MODEL_DIR / "naive_bayes_model.pkl"))
     TOP_DOMAINS_FILE = Path(
-        os.getenv("TOP_DOMAINS_FILE", DATA_DIR / "top_10000_domains.csv")
+        os.getenv("TOP_DOMAINS_FILE", DATA_DIR / "traindata.csv")
     )
     PERFORMANCE_FILE = Path(os.getenv("PERFORMANCE_FILE", BASE_DIR / "ket_qua_so_sanh.csv"))
 
